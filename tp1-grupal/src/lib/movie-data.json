@@ -1,0 +1,324 @@
+{
+  "media": [
+    {
+      "id": "m1",
+      "name": "El Origen",
+      "category": "Ciencia Ficción",
+      "type": "movie",
+      "image": {
+        "poster": "https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?q=80&w=500",
+        "backdrop": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1200"
+      },
+      "details": {
+        "duration": "2h 28m",
+        "cast": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"],
+        "description": "Un ladrón que roba secretos corporativos a través del uso de tecnología para compartir sueños, recibe la tarea inversa de implantar una idea en la mente de un director ejecutivo.",
+        "rating": 8.8
+      }
+    },
+    {
+      "id": "m2",
+      "name": "El Padrino",
+      "category": "Crimen",
+      "type": "movie",
+      "image": {
+        "poster": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=500",
+        "backdrop": "https://images.unsplash.com/photo-1436450412740-6b988f486c6b?q=80&w=1200"
+      },
+      "details": {
+        "duration": "2h 55m",
+        "cast": ["Marlon Brando", "Al Pacino", "James Caan"],
+        "description": "El anciano patriarca de una dinastía de crimen organizado transfiere el control de su imperio clandestino a su reacio hijo.",
+        "rating": 9.2
+      }
+    },
+    {
+      "id": "m3",
+      "name": "El Viaje de Chihiro",
+      "category": "Animación",
+      "type": "movie",
+      "image": {
+        "poster": "https://images.unsplash.com/photo-1578632738980-43312b504d46?q=80&w=500",
+        "backdrop": "https://images.unsplash.com/photo-1541462608141-ad60397d4573?q=80&w=1200"
+      },
+      "details": {
+        "duration": "2h 5m",
+        "cast": ["Rumi Hiiragi", "Miyu Irino", "Mari Natsuki"],
+        "description": "Durante la mudanza de su familia a los suburbios, una niña malhumorada de 10 años deambula por un mundo gobernado por dioses, brujas y espíritus.",
+        "rating": 8.6
+      }
+    },
+    {
+      "id": "m4",
+      "name": "Tiempos Violentos",
+      "category": "Cine Negro",
+      "type": "movie",
+      "image": {
+        "poster": "https://images.unsplash.com/photo-1613679074971-91fc27180061?q=80&w=500",
+        "backdrop": "https://images.unsplash.com/photo-1593072092524-32537ee89ec7?q=80&w=1200"
+      },
+      "details": {
+        "duration": "2h 34m",
+        "cast": ["John Travolta", "Uma Thurman", "Samuel L. Jackson"],
+        "description": "Las vidas de dos sicarios de la mafia, un boxeador, un gángster y su esposa se entrelazan en cuatro historias de violencia y redención.",
+        "rating": 8.9
+      }
+    },
+    {
+      "id": "m5",
+      "name": "Parásitos",
+      "category": "Suspenso",
+      "type": "movie",
+      "image": {
+        "poster": "https://images.unsplash.com/photo-1585951237318-9ea5e175b891?q=80&w=500",
+        "backdrop": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200"
+      },
+      "details": {
+        "duration": "2h 12m",
+        "cast": ["Song Kang-ho", "Lee Sun-kyun", "Cho Yeo-jeong"],
+        "description": "La codicia y la discriminación de clases amenazan la relación simbiótica recién formada entre la adinerada familia Park y el indigente clan Kim.",
+        "rating": 8.5
+      }
+    },
+    {
+      "id": "m6",
+      "name": "Duna: Parte Dos",
+      "category": "Épico",
+      "type": "movie",
+      "image": {
+        "poster": "https://images.unsplash.com/photo-1506466010722-395aa2bef877?q=80&w=500",
+        "backdrop": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=1200"
+      },
+      "details": {
+        "duration": "2h 46m",
+        "cast": ["Timothée Chalamet", "Zendaya", "Rebecca Ferguson"],
+        "description": "Paul Atreides se une a Chani y a los Fremen mientras emprende un camino de venganza contra los conspiradores que destruyeron a su familia.",
+        "rating": 8.9
+      }
+    },
+    {
+      "id": "m7",
+      "name": "El Caballero de la Noche",
+      "category": "Acción",
+      "type": "movie",
+      "image": {
+        "poster": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?q=80&w=500",
+        "backdrop": "https://images.unsplash.com/photo-1509248961158-e54f6934749c?q=80&w=1200"
+      },
+      "details": {
+        "duration": "2h 32m",
+        "cast": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+        "description": "Cuando la amenaza conocida como el Guasón causa estragos y caos entre la gente de Ciudad Gótica, Batman debe aceptar una de las mayores pruebas psicológicas y físicas.",
+        "rating": 9.0
+      }
+    },
+    {
+      "id": "m8",
+      "name": "Todo en todas partes al mismo tiempo",
+      "category": "Aventura",
+      "type": "movie",
+      "image": {
+        "poster": "https://images.unsplash.com/photo-1461360228754-6e81c478c882?q=80&w=500",
+        "backdrop": "https://images.unsplash.com/photo-1500462859233-01974d0f5087?q=80&w=1200"
+      },
+      "details": {
+        "duration": "2h 19m",
+        "cast": ["Michelle Yeoh", "Stephanie Hsu", "Ke Huy Quan"],
+        "description": "Una inmigrante china de mediana edad se ve envuelta en una loca aventura en la que solo ella puede salvar la existencia explorando otros universos.",
+        "rating": 7.8
+      }
+    },
+    {
+      "id": "m9",
+      "name": "Mad Max: Furia en la Carretera",
+      "category": "Post-apocalíptico",
+      "type": "movie",
+      "image": {
+        "poster": "https://images.unsplash.com/photo-1509316785289-025f54846b6a?q=80&w=500",
+        "backdrop": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1200"
+      },
+      "details": {
+        "duration": "2h 0m",
+        "cast": ["Tom Hardy", "Charlize Theron", "Nicholas Hoult"],
+        "description": "En un páramo post-apocalíptico, una mujer se rebela contra un gobernante tiránico en busca de su tierra natal.",
+        "rating": 8.1
+      }
+    },
+    {
+      "id": "m10",
+      "name": "El Gran Hotel Budapest",
+      "category": "Comedia",
+      "type": "movie",
+      "image": {
+        "poster": "https://images.unsplash.com/photo-1551009175-15bdf9dcb580?q=80&w=500",
+        "backdrop": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1200"
+      },
+      "details": {
+        "duration": "1h 39m",
+        "cast": ["Ralph Fiennes", "Tony Revolori", "Saoirse Ronan"],
+        "description": "Un escritor conoce al dueño de un hotel de alta clase en decadencia, quien le cuenta sobre sus primeros años sirviendo como botones.",
+        "rating": 8.1
+      }
+    },
+    {
+      "id": "s1",
+      "name": "The Last of Us",
+      "category": "Aventura",
+      "type": "show",
+      "image": {
+        "poster": "https://images.unsplash.com/photo-1614728263952-84ea256f9679?q=80&w=500",
+        "backdrop": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=1200"
+      },
+      "details": {
+        "duration": "1 Temporada",
+        "cast": ["Pedro Pascal", "Bella Ramsey", "Anna Torv"],
+        "description": "Después de que una pandemia global destruye la civilización, un sobreviviente endurecido se hace cargo de una niña de 14 años.",
+        "rating": 8.8
+      }
+    },
+    {
+      "id": "s2",
+      "name": "Succession",
+      "category": "Drama",
+      "type": "show",
+      "image": {
+        "poster": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=500",
+        "backdrop": "https://images.unsplash.com/photo-1454165833767-027ffea9e77b?q=80&w=1200"
+      },
+      "details": {
+        "duration": "4 Temporadas",
+        "cast": ["Brian Cox", "Jeremy Strong", "Sarah Snook"],
+        "description": "La familia Roy es conocida por controlar la empresa de medios y entretenimiento más grande del mundo.",
+        "rating": 8.9
+      }
+    },
+    {
+      "id": "s3",
+      "name": "El Oso",
+      "category": "Comedia",
+      "type": "show",
+      "image": {
+        "poster": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=500",
+        "backdrop": "https://images.unsplash.com/photo-1556910602-3884ee9d2712?q=80&w=1200"
+      },
+      "details": {
+        "duration": "2 Temporadas",
+        "cast": ["Jeremy Allen White", "Ebon Moss-Bachrach", "Ayo Edebiri"],
+        "description": "Un joven chef del mundo de la alta cocina regresa a casa para administrar la tienda de sándwiches de carne italiana de su familia.",
+        "rating": 8.6
+      }
+    },
+    {
+      "id": "s4",
+      "name": "Arcane",
+      "category": "Fantasía",
+      "type": "show",
+      "image": {
+        "poster": "https://images.unsplash.com/photo-1514575126944-453718119a63?q=80&w=500",
+        "backdrop": "https://images.unsplash.com/photo-1614728263952-84ea256f9679?q=80&w=1200"
+      },
+      "details": {
+        "duration": "1 Temporada",
+        "cast": ["Hailee Steinfeld", "Ella Purnell", "Kevin Alejandro"],
+        "description": "Ambientada en la utópica Piltóver y en el oprimido subsuelo de Zaun, la historia sigue los orígenes de dos campeones icónicos.",
+        "rating": 9.0
+      }
+    },
+    {
+      "id": "s5",
+      "name": "Mindhunter",
+      "category": "Psicológico",
+      "type": "show",
+      "image": {
+        "poster": "https://images.unsplash.com/photo-1577495508048-b635879837f1?q=80&w=500",
+        "backdrop": "https://images.unsplash.com/photo-1505663912202-ac22d4cb3707?q=80&w=1200"
+      },
+      "details": {
+        "duration": "2 Temporadas",
+        "cast": ["Jonathan Groff", "Holt McCallany", "Anna Torv"],
+        "description": "Dos agentes del FBI amplían las fronteras de la ciencia criminalística al investigar la psicología detrás de los asesinatos.",
+        "rating": 8.6
+      }
+    },
+    {
+      "id": "s6",
+      "name": "Severance",
+      "category": "Misterio",
+      "type": "show",
+      "image": {
+        "poster": "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=500",
+        "backdrop": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200"
+      },
+      "details": {
+        "duration": "1 Temporada",
+        "cast": ["Adam Scott", "Britt Lower", "Patricia Arquette"],
+        "description": "Mark lidera un equipo de oficinistas cuyos recuerdos han sido divididos quirúrgicamente entre su vida laboral y personal.",
+        "rating": 8.7
+      }
+    },
+    {
+      "id": "s7",
+      "name": "The White Lotus",
+      "category": "Sátira",
+      "type": "show",
+      "image": {
+        "poster": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=500",
+        "backdrop": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200"
+      },
+      "details": {
+        "duration": "2 Temporadas",
+        "cast": ["Jennifer Coolidge", "Jon Gries", "Murray Bartlett"],
+        "description": "Una serie antológica que sigue las hazañas de varios huéspedes y empleados en el resort White Lotus.",
+        "rating": 7.9
+      }
+    },
+    {
+      "id": "s8",
+      "name": "Samurái de Ojos Azules",
+      "category": "Animación",
+      "type": "show",
+      "image": {
+        "poster": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=500",
+        "backdrop": "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?q=80&w=1200"
+      },
+      "details": {
+        "duration": "1 Temporada",
+        "cast": ["Maya Erskine", "George Takei", "Masi Oka"],
+        "description": "En el Japón del siglo XVII, una maestra de la espada de ascendencia blanca y japonesa trabaja encubierta para buscar venganza.",
+        "rating": 8.7
+      }
+    },
+    {
+      "id": "s9",
+      "name": "Chernobyl",
+      "category": "Historia",
+      "type": "show",
+      "image": {
+        "poster": "https://images.unsplash.com/photo-1517089535819-de2449739484?q=80&w=500",
+        "backdrop": "https://images.unsplash.com/photo-1542204172-e43c0e213502?q=80&w=1200"
+      },
+      "details": {
+        "duration": "Limited Series",
+        "cast": ["Jared Harris", "Stellan Skarsgård", "Emily Watson"],
+        "description": "En abril de 1986, una gran explosión sacudió la central nuclear de Chernobyl en el norte de Ucrania.",
+        "rating": 9.4
+      }
+    },
+    {
+      "id": "s10",
+      "name": "Shogun",
+      "category": "Drama de Época",
+      "type": "show",
+      "image": {
+        "poster": "https://images.unsplash.com/photo-1543165365-07232ed12faf?q=80&w=500",
+        "backdrop": "https://images.unsplash.com/photo-1511527844068-006b95d162c2?q=80&w=1200"
+      },
+      "details": {
+        "duration": "1 Temporada",
+        "cast": ["Hiroyuki Sanada", "Cosmo Jarvis", "Anna Sawai"],
+        "description": "Cuando un misterioso barco europeo es encontrado abandonado, Lord Yoshii Toranaga descubre secretos que podrían inclinar la balanza del poder.",
+        "rating": 8.8
+      }
+    }
+  ]
+}
