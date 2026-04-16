@@ -2,15 +2,15 @@ export default function Hero({ content }) {
   return (
     <section className="relative h-[80vh] w-full flex items-center px-12">
       <div 
-        className="absolute inset-0 -z-10 bg-cover bg-center"
+        className="absolute inset-0 z-0 bg-cover bg-center"
         style={{
-            backgroundImage: content?.image?.backdrop
-            ? `linear-gradient(to right, rgba(0,0,0,0.8), transparent), url(${content.image.backdrop})`
-            : "none"
+            backgroundImage: content?.image?.backdrop 
+              ? `linear-gradient(to right, rgba(0,0,0,0.8), transparent), url('${content.image.backdrop}')`
+              : "none"
         }}
       />
       
-      <div className="max-w-2xl space-y-4">
+      <div className="relative z-10 max-w-2xl space-y-4">
         <span className="text-cyan-400 font-bold tracking-widest uppercase text-sm">
           Featured {content.type}
         </span>
