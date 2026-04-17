@@ -1,5 +1,22 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Nombre del proyecto
+SyncFive
+
+## Descripción del proyecto
+SyncFive es una pagina web que simula un servicio de streaming. Su nombre se debe a que somos 5 integrantes del grupo, haciendo una lluvia de ideas, surgio 'SyncFive'.
+
+## Número de grupo y nombre del equipo
+Grupo N° 5 - JUAN FALCO
+
+## Integrantes del grupo
+Benavidez, Tomás;
+Blengino, Giuliano;
+Cambria, Valentino;
+Falco, Juan;
+Gómez, Manuel;
+
+
 ## Getting Started
 
 First, run the development server:
