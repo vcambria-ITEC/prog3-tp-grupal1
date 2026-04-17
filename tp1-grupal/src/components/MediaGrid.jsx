@@ -46,7 +46,7 @@ export default function MediaGrid({ title, items }) {
               
               <div className="flex items-center gap-3 text-sm">
                 <span className="flex items-center justify-center rounded border border-[#00BFA5] px-2 py-0.5 text-[11px] font-black text-[#1DE9B6] uppercase">
-                  {item.details.rating} ★
+                  {item.details.rating}★
                 </span>
                 <span className="text-zinc-400 font-medium tracking-wide uppercase text-xs">
                   {item.category} • {item.details.duration}
