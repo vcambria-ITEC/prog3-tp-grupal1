@@ -1,7 +1,7 @@
 {
   "media": [
     {
-      "id": "m1",
+      "id": "1",
       "name": "El Origen",
       "category": "Ciencia Ficción",
       "type": "movie",
@@ -17,7 +17,7 @@
       }
     },
     {
-      "id": "m2",
+      "id": "2",
       "name": "El Padrino",
       "category": "Crimen",
       "type": "movie",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "id": "m3",
+      "id": "3",
       "name": "El Viaje de Chihiro",
       "category": "Animación",
       "type": "movie",
@@ -49,7 +49,7 @@
       }
     },
     {
-      "id": "m4",
+      "id": "4",
       "name": "Tiempos Violentos",
       "category": "Cine Negro",
       "type": "movie",
@@ -65,7 +65,7 @@
       }
     },
     {
-      "id": "m5",
+      "id": "5",
       "name": "Parásitos",
       "category": "Suspenso",
       "type": "movie",
@@ -81,7 +81,7 @@
       }
     },
     {
-      "id": "m6",
+      "id": "6",
       "name": "Duna: Parte Dos",
       "category": "Épico",
       "type": "movie",
@@ -97,7 +97,7 @@
       }
     },
     {
-      "id": "m7",
+      "id": "7",
       "name": "El Caballero de la Noche",
       "category": "Acción",
       "type": "movie",
@@ -113,7 +113,7 @@
       }
     },
     {
-      "id": "m8",
+      "id": "8",
       "name": "Todo en todas partes al mismo tiempo",
       "category": "Aventura",
       "type": "movie",
@@ -129,7 +129,7 @@
       }
     },
     {
-      "id": "m9",
+      "id": "9",
       "name": "Mad Max: Furia en la Carretera",
       "category": "Post-apocalíptico",
       "type": "movie",
@@ -145,7 +145,7 @@
       }
     },
     {
-      "id": "m10",
+      "id": "10",
       "name": "El Gran Hotel Budapest",
       "category": "Comedia",
       "type": "movie",
@@ -161,7 +161,7 @@
       }
     },
     {
-      "id": "s1",
+      "id": "11",
       "name": "The Last of Us",
       "category": "Aventura",
       "type": "show",
@@ -177,7 +177,7 @@
       }
     },
     {
-      "id": "s2",
+      "id": "12",
       "name": "Succession",
       "category": "Drama",
       "type": "show",
@@ -193,7 +193,7 @@
       }
     },
     {
-      "id": "s3",
+      "id": "13",
       "name": "El Oso",
       "category": "Comedia",
       "type": "show",
@@ -209,7 +209,7 @@
       }
     },
     {
-      "id": "s4",
+      "id": "14",
       "name": "Arcane",
       "category": "Fantasía",
       "type": "show",
@@ -225,7 +225,7 @@
       }
     },
     {
-      "id": "s5",
+      "id": "15",
       "name": "Mindhunter",
       "category": "Psicológico",
       "type": "show",
@@ -241,7 +241,7 @@
       }
     },
     {
-      "id": "s6",
+      "id": "16",
       "name": "Severance",
       "category": "Misterio",
       "type": "show",
@@ -257,7 +257,7 @@
       }
     },
     {
-      "id": "s7",
+      "id": "17",
       "name": "The White Lotus",
       "category": "Sátira",
       "type": "show",
@@ -273,7 +273,7 @@
       }
     },
     {
-      "id": "s8",
+      "id": "18",
       "name": "Samurái de Ojos Azules",
       "category": "Animación",
       "type": "show",
@@ -289,7 +289,7 @@
       }
     },
     {
-      "id": "s9",
+      "id": "19",
       "name": "Chernobyl",
       "category": "Historia",
       "type": "show",
@@ -305,7 +305,7 @@
       }
     },
     {
-      "id": "s10",
+      "id": "20",
       "name": "Shogun",
       "category": "Drama de Época",
       "type": "show",

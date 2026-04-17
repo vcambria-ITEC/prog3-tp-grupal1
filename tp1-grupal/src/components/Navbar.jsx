@@ -12,13 +12,14 @@ export default function Navbar() {
         
         <div className="flex items-center gap-12">
           <Link href="/" className="font-black tracking-tighter text-2xl text-[#6d28d9] uppercase hover:opacity-80 transition">
-            SyncFive
+            SyncFive ~
           </Link>
 
           <div className="flex items-center gap-6">
             <NavItem href="/" label="Inicio" active={pathname === "/"} />
             <NavItem href="/shows" label="Series" active={pathname === "/shows"} />
             <NavItem href="/movies" label="Películas" active={pathname === "/movies"} />
+            <NavItem href="/mylist" label="Mi Lista" active={pathname === "/mylist"} />
           </div>
         </div>
 

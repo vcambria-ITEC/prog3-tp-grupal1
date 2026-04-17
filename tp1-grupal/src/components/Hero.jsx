@@ -10,8 +10,10 @@ export default function Hero({ content }) {
         }}
       />
       
+      <div className="absolute inset-x-0 bottom-0 z-[5] h-1/2 bg-gradient-to-t from-black to-transparent pointer-events-none" />
+
       <div className="relative z-10 max-w-2xl space-y-4">
-        <span className="text-cyan-400 font-bold tracking-widest uppercase text-sm">
+        <span className="text-[#1DE9B6] font-bold tracking-widest uppercase text-sm">
           Featured {content.type}
         </span>
         <h1 className="text-6xl font-black text-white uppercase italic">

@@ -14,17 +14,14 @@ export default function Home() {
             <h2 className="text-2xl font-black text-white uppercase tracking-tight">
               Populares en SyncFive
             </h2>
-            <div className="h-1 w-12 bg-[#33f3cd] rounded-full shadow-[0_0_10px_#33f3cd]" />
+            <div className="h-1 w-12 bg-[#1DE9B6] rounded-full shadow-[0_0_10px_#1DE9B6]" />
           </div>
 
           <div className="flex justify-center flex-wrap gap-6 p-8 bg-black">
             {top5Media.map((media) => (
               <ContentCard 
                 key={media.id} 
-                title={media.name}
-                imageSrc={media.image?.poster} 
-                rating={media.details?.rating} 
-                genre={media.category}
+                media={media}
               />
             ))}
           </div>
