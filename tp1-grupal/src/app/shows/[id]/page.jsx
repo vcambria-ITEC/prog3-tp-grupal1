@@ -1,10 +1,16 @@
-import { getMediaById } from "@/lib/data";
+import { getShowById } from "@/lib/tmdb";
 import DetailHero from "@/components/DetailHero";
 import Link from "next/link";
 
 export default async function ShowDetailPage({ params }) {
   const { id } = await params;
-  const show = getMediaById(id);
+
+  let show;
+  try {
+    show = await getShowById(id);
+  } catch {
+    show = null;
+  }
 
   if (!show) {
     return (
@@ -12,8 +18,8 @@ export default async function ShowDetailPage({ params }) {
         <h1 className="text-4xl font-black text-[#1DE9B6] uppercase italic tracking-tighter">
           Serie no encontrada
         </h1>
-        <Link 
-          href="/shows" 
+        <Link
+          href="/shows"
           className="px-6 py-2 border-2 border-[#1DE9B6] text-[#1DE9B6] rounded-full font-bold hover:bg-[#1DE9B6] hover:text-black transition"
         >
           &larr; Volver al catálogo de series
