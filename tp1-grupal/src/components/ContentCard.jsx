@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import FavoriteButton from "@/components/FavoriteButton";
 
 export default function ContentCard({ media }) {
   const href = media.type === "show" ? `/shows/${media.id}` : `/movies/${media.id}`;
@@ -15,13 +16,14 @@ export default function ContentCard({ media }) {
           className="object-cover transition-transform duration-300 group-hover:scale-105"
         />
         
-        <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center z-10">
-          <Link 
+        <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center gap-3 z-10">
+          <Link
             href={href}
             className="bg-[#33f3cd] text-black font-bold py-2 px-6 rounded-full transform translate-y-4 group-hover:translate-y-0 transition-all duration-300 hover:bg-[#28dfbc]"
           >
             Ver más
           </Link>
+          <FavoriteButton mediaId={media.id} />
         </div>
       </div>
 

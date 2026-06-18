@@ -1,14 +1,17 @@
-import { getMostRatedMedia, getTopFiveMedia } from "@/lib/data";
+import { getMostRatedMedia, getTopRatedMedia } from "@/lib/tmdb";
 import Hero from "@/components/Hero";
 import ContentCard from "@/components/ContentCard";
 
-export default function Home() {
-  const topMedia = getMostRatedMedia();
-  const top5Media = getTopFiveMedia();
+export default async function Home() {
+  const [topMedia, top5Media] = await Promise.all([
+    getMostRatedMedia(),
+    getTopRatedMedia(5),
+  ]);
+
   return (
     <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <main className="flex flex-1 w-full flex-col items-center justify-between bg-white dark:bg-black sm:items-start">
-        <Hero content={topMedia}/>
+        <Hero content={topMedia} />
         <section className="w-full px-12 mt-20">
           <div className="flex items-center gap-4 mb-8">
             <h2 className="text-2xl font-black text-white uppercase tracking-tight">
@@ -19,10 +22,7 @@ export default function Home() {
 
           <div className="flex justify-center flex-wrap gap-6 p-8 bg-black">
             {top5Media.map((media) => (
-              <ContentCard 
-                key={media.id} 
-                media={media}
-              />
+              <ContentCard key={media.id} media={media} />
             ))}
           </div>
         </section>

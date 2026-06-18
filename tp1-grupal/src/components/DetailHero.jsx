@@ -1,4 +1,5 @@
 import Link from "next/link";
+import FavoriteButton from "@/components/FavoriteButton";
 
 export default function DetailHero({ content }) {
   // Determinamos a dónde tiene que volver dependiendo si es peli o serie
@@ -72,6 +73,7 @@ export default function DetailHero({ content }) {
           <button className="flex items-center gap-2 bg-[#1DE9B6] text-black px-10 py-3 rounded-full font-black uppercase tracking-tight hover:bg-white transition-all shadow-[0_0_15px_rgba(29,233,182,0.4)]">
             <span className="text-xl">▶</span> Ver Ahora
           </button>
+          <FavoriteButton mediaId={content.id} />
         </div>
       </div>
     </section>

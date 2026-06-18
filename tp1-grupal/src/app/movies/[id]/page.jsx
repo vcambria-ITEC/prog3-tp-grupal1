@@ -1,10 +1,16 @@
-import { getMediaById } from "@/lib/data";
+import { getMovieById } from "@/lib/tmdb";
 import DetailHero from "@/components/DetailHero";
 import Link from "next/link";
 
 export default async function MovieDetailPage({ params }) {
   const { id } = await params;
-  const movie = getMediaById(id);
+
+  let movie;
+  try {
+    movie = await getMovieById(id);
+  } catch {
+    movie = null;
+  }
 
   if (!movie) {
     return (
@@ -13,8 +19,8 @@ export default async function MovieDetailPage({ params }) {
           Contenido no encontrado
         </h1>
         <p className="text-zinc-400 text-lg">El ID '{id}' no corresponde a ninguna película en nuestro catálogo.</p>
-        <Link 
-          href="/movies" 
+        <Link
+          href="/movies"
           className="px-6 py-2 border-2 border-[#1DE9B6] text-[#1DE9B6] rounded-full font-bold hover:bg-[#1DE9B6] hover:text-black transition"
         >
           &larr; Volver al catálogo

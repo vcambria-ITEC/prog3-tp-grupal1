@@ -1,8 +1,8 @@
-import { getMovies } from "@/lib/data";
+import { getMovies } from "@/lib/tmdb";
 import MediaGrid from "@/components/MediaGrid";
 
-export default function MoviesPage() {
-  const allMovies = getMovies();
+export default async function MoviesPage() {
+  const allMovies = await getMovies();
 
   return (
     <div className="min-h-screen bg-black pt-24 pb-20">
