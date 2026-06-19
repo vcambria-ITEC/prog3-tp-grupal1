@@ -165,3 +165,25 @@ export async function getMostRatedMedia() {
   const top = await getTopRatedMedia(1);
   return top[0];
 }
+
+export async function getGenres(type) {
+  const data = await tmdbGet(`/genre/${type}/list`);
+  return data.genres;
+}
+
+export async function getMoviesByGenre(genreId) {
+  const [data, genreMap] = await Promise.all([
+    tmdbGet("/discover/movie", { with_genres: genreId }),
+    fetchGenreMap("movie"),
+  ]);
+  return data.results.map((item) => normalizeListMovie(item, genreMap));
+}
+
+export async function getShowsByGenre(genreId) {
+  const [data, genreMap] = await Promise.all([
+    tmdbGet("/discover/tv", { with_genres: genreId }),
+    fetchGenreMap("tv"),
+  ]);
+  return data.results.map((item) => normalizeListShow(item, genreMap));
+}
+

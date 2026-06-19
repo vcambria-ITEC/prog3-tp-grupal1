@@ -1,7 +1,11 @@
 import SideBarLayout from "@/components/SideBarLayout";
+import { getGenres } from "@/lib/tmdb";
 
-export default function ShowsLayout({ children }) {
+export default async function MoviesLayout({ children }) {
+  const genres = await getGenres("movie");
   return (
-    <SideBarLayout children={children}/>
+    <SideBarLayout genres={genres} type="movies">
+      {children}
+    </SideBarLayout>
   );
 }
