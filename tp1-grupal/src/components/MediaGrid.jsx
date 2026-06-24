@@ -33,7 +33,7 @@ export default function MediaGrid({ title, items }) {
                   >
                     Ver más
                   </Link>
-                  <FavoriteButton mediaId={item.id} />
+                  <FavoriteButton media={item} />
                 </div>
               </div>
 

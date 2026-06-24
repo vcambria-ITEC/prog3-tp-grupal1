@@ -1,13 +1,13 @@
 "use client";
 import { useFavorites } from "@/lib/FavoritesContext";
 
-export default function FavoriteButton({ mediaId }) {
+export default function FavoriteButton({ media }) {
   const { isFav, toggleFav } = useFavorites();
-  const fav = isFav(mediaId);
+  const fav = isFav(media.id);
 
   return (
     <button
-      onClick={() => toggleFav(mediaId)}
+      onClick={() => toggleFav(media)}
       className={`flex items-center gap-2 px-6 py-3 rounded-full font-black uppercase tracking-tight border-2 transition-all duration-300
         ${fav
           ? "bg-[#1DE9B6] border-[#1DE9B6] text-black shadow-[0_0_15px_rgba(29,233,182,0.4)]"

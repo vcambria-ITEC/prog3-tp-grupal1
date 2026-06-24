@@ -23,7 +23,7 @@ export default function ContentCard({ media }) {
           >
             Ver más
           </Link>
-          <FavoriteButton mediaId={media.id} />
+          <FavoriteButton media={media} />
         </div>
       </div>
 

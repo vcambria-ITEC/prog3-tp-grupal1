@@ -2,9 +2,8 @@
 import { useFavorites } from "@/lib/FavoritesContext";
 import ContentCard from "@/components/ContentCard";
 
-export default function MyListClient({ allMedia }) {
-  const { favIds } = useFavorites();
-  const favorites = allMedia.filter((media) => favIds.includes(media.id));
+export default function MyListClient() {
+  const { favorites } = useFavorites();
 
   return (
     <div className="flex flex-col min-h-screen bg-black pt-28 pb-12">
