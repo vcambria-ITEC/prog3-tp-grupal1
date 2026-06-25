@@ -120,9 +120,14 @@ function normalizeShowDetail(item) {
   };
 }
 
+const WESTERN_COUNTRIES = "US|GB|CA|AU|IE|FR|DE|IT|ES|NL|BE|SE|NO|DK|AT|CH";
+
 export async function getMovies() {
   const [data, genreMap] = await Promise.all([
-    tmdbGet("/movie/popular"),
+    tmdbGet("/discover/movie", {
+      sort_by: "popularity.desc",
+      with_origin_country: WESTERN_COUNTRIES,
+    }),
     fetchGenreMap("movie"),
   ]);
   return data.results.map((item) => normalizeListMovie(item, genreMap));
@@ -130,7 +135,10 @@ export async function getMovies() {
 
 export async function getShows() {
   const [data, genreMap] = await Promise.all([
-    tmdbGet("/tv/popular"),
+    tmdbGet("/discover/tv", {
+      sort_by: "popularity.desc",
+      with_origin_country: WESTERN_COUNTRIES,
+    }),
     fetchGenreMap("tv"),
   ]);
   return data.results.map((item) => normalizeListShow(item, genreMap));
